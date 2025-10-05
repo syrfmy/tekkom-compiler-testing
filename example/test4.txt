@@ -1,0 +1,11 @@
+{
+  var A     : integer
+  var B     : integer;
+  get A
+  B:=1
+  repeat
+    B := B*A
+    A := A-1
+  until A <1
+  put B 
+}

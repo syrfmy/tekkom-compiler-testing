@@ -1,0 +1,9 @@
+{
+  var N     : integer;
+  N := 0
+  if N then
+    put "expression true"
+  else
+    put "expression true"
+  end if
+  }

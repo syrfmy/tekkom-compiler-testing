@@ -1,0 +1,18 @@
+{
+  var N     : integer
+  var A     : integer
+  var B     : integer
+  var TEMP  : integer;
+
+  get N
+  A := 1
+  B := 1
+
+  repeat
+     put A
+     TEMP := A + B
+     A := B
+     B := TEMP
+     N := N - 1
+  until N <= 0
+}
