@@ -1,0 +1,6 @@
+{
+  var N     : integer
+  boolean func isPositive(x:integer)=x>0;
+  N:=10
+  put isPositive(N)
+  }
